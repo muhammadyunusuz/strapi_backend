@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "greeting_texts",
+  "info": {
+    "name": "greeting_texts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
